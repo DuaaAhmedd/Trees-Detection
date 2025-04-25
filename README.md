@@ -1,2 +1,2 @@
 # Trees-Detection
-Developed an object detection model using the YOLOv8 framework from Ultralytics to identify trees in images.
+Developed an object detection model using the YOLOv8 framework from Ultralytics to identify trees in images. Utilized a custom dataset ("trees detection") with train, validation, and test splits, processed via Python, OpenCV, and PyTorch. Created a YAML configuration file to define dataset paths and classes ("Tree", "0"), and trained the model on a GPU (NVIDIA Tesla T4) for 100 epochs with an image size of 640x640. Technologies: Python, YOLOv8, OpenCV, PyTorch. Objective: Enable automated tree detection for environmental or agricultural applications.
